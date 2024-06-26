@@ -32,3 +32,38 @@ body {
   max-width: 800px;    /* 最大の幅を800pxにする */
   margin: 0 auto;      /* 上下のマージンを0, 左右のマージンをautoにする */
 }
+img {
+  height: 2rem;
+}
+header {
+  display: flex;    /* 子要素を縦並びから横並びに変更 */
+}
+header {
+  display: flex;
+  justify-content: space-between;   /* 間隔を最大まで広げる */
+}
+
+header div {
+  display: flex;    /* ネスト対応 */
+}
+header div {
+  display: flex;
+  align-items: center;    /* 垂直方向を中央揃え */
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd; /* 太さ1px, スタイルsolid, 色#dddの枠線を下だけつける */
+}
+h1 {
+  color: #ff0087;
+  font-size: 1.5rem;
+}
+h3 {
+  color: #ff0087;
+  font-size: 1.5rem;
+}
+h4 {
+  color: #f00;
+  font-size: 1.25%;
+}
